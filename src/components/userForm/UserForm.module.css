@@ -1,0 +1,36 @@
+.user-form {
+  display: flex;
+  justify-content: center;
+}
+
+.user-form__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 95%;
+}
+
+.user-form__input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user-form__input label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.user-form__input input {
+  width: 100%;
+  height: 20px;
+  font-size: 17px;
+  padding: 5px;
+  border: 1px solid rgb(188, 186, 186);
+}
+
+.user-form__action {
+  display: flex;
+  justify-content: flex-start;
+}

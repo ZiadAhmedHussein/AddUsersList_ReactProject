@@ -1,0 +1,16 @@
+.add-button {
+  padding: 8px;
+  background-color: blueviolet;
+  color: white;
+  width: 150px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  opacity: .8;
+  transition: .3s;
+}
+
+.add-button:hover {
+  opacity: 1;
+}
